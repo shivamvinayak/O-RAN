@@ -27,7 +27,7 @@ type Control struct {
 }
 
 func init() {
-	file := "/opt/kpimon.log"
+	file := "/opt/rc-xapp.log"
 	logFile, err := os.OpenFile(file, os.O_RDWR|os.O_CREATE|os.O_APPEND, 0766)
 	if err != nil {
 		panic(err)
@@ -47,7 +47,7 @@ func NewControl() Control {
 		make(map[string]bool),
 		&sync.Mutex{},
 		&sync.Mutex{},
-		sdlgo.NewSdlInstance("kpimon", sdlgo.NewDatabase())}
+		sdlgo.NewSdlInstance("rc-xapp", sdlgo.NewDatabase())}
 }
 
 func ReadyCB(i interface{}) {
