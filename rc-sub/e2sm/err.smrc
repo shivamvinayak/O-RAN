@@ -1,0 +1,1424 @@
+lib/converter-example.c:42:2: error: #error Define -DPDU to compile this example converter.
+   42 | #error Define -DPDU to compile this example converter.
+      |  ^~~~~
+lib/converter-example.c:43:2: error: #error `asn1c -pdu=...` adds necessary flags automatically.
+   43 | #error `asn1c -pdu=...` adds necessary flags automatically.
+      |  ^~~~~
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/E2SM-RC-IndicationMessage-Format1.h:15,
+                 from lib/E2SM-RC-IndicationMessage.c:10:
+headers/E2SM-RC-IndicationMessage-Format2.h:30:17: error: expected specifier-qualifier-list before ‘typedef’
+   30 |   A_SEQUENCE_OF(typedef struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/E2SM-RC-IndicationMessage-Format2.h:30:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   30 |   A_SEQUENCE_OF(typedef struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/E2SM-RC-IndicationMessage-Format2.h:15,
+                 from lib/E2SM-RC-IndicationMessage-Format2.c:8:
+headers/E2SM-RC-IndicationMessage-Format2.h:30:17: error: expected specifier-qualifier-list before ‘typedef’
+   30 |   A_SEQUENCE_OF(typedef struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/E2SM-RC-IndicationMessage-Format2.h:30:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   30 |   A_SEQUENCE_OF(typedef struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/E2SM-RC-IndicationMessage-Format2.h:12,
+                 from lib/E2SM-RC-IndicationMessage-Format2.c:8:
+lib/E2SM-RC-IndicationMessage-Format2.c:95:20: error: invalid use of undefined type ‘struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member’
+   95 |  { ATF_NOFLAGS, 0, offsetof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:104:20: error: invalid use of undefined type ‘struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member’
+  104 |  { ATF_NOFLAGS, 0, offsetof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member, ranParameter_valueType),
+      |                    ^~~~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:122:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member’
+  122 |  sizeof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member),
+      |         ^~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:122:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  122 |  sizeof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member),
+      |  ^~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:122:2: note: (near initialization for ‘asn_SPC_Member_specs_6.struct_size’)
+lib/E2SM-RC-IndicationMessage-Format2.c:122:2: error: initializer element is not constant
+lib/E2SM-RC-IndicationMessage-Format2.c:122:2: note: (near initialization for ‘asn_SPC_Member_specs_6.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/E2SM-RC-IndicationMessage-Format2.h:12,
+                 from lib/E2SM-RC-IndicationMessage-Format2.c:8:
+lib/E2SM-RC-IndicationMessage-Format2.c:123:2: error: invalid use of undefined type ‘struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member’
+  123 |  offsetof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:123:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  123 |  offsetof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:123:2: note: (near initialization for ‘asn_SPC_Member_specs_6.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/E2SM-RC-IndicationMessage-Format2.h:12,
+                 from lib/E2SM-RC-IndicationMessage-Format2.c:8:
+lib/E2SM-RC-IndicationMessage-Format2.c:123:2: error: initializer element is not constant
+  123 |  offsetof(struct E2SM_RC_IndicationMessage_Format2__ueParameter_List__Member__ranP_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/E2SM-RC-IndicationMessage-Format2.c:123:2: note: (near initialization for ‘asn_SPC_Member_specs_6.ctx_offset’)
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-EventTrigger.h:15,
+                 from lib/E2SM-RC-RANFunctionDefinition.c:10:
+headers/RANFunctionDefinition-EventTrigger.h:60:17: error: expected specifier-qualifier-list before ‘typedef’
+   60 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-EventTrigger.h:60:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   60 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member {
+      |   ^~~~~~~~~~~~~
+headers/RANFunctionDefinition-Report.h:37:17: error: expected specifier-qualifier-list before ‘typedef’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Report.h:37:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-EventTrigger.h:15,
+                 from lib/E2SM-RC-RANFunctionDefinition.c:10:
+headers/RANFunctionDefinition-Insert.h:37:17: error: expected specifier-qualifier-list before ‘typedef’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Insert.h:37:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member {
+      |   ^~~~~~~~~~~~~
+headers/RANFunctionDefinition-Control.h:35:17: error: expected specifier-qualifier-list before ‘typedef’
+   35 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Control.h:35:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   35 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member {
+      |   ^~~~~~~~~~~~~
+headers/RANFunctionDefinition-Control.h:73:17: error: expected specifier-qualifier-list before ‘typedef’
+   73 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Control.h:73:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   73 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member {
+      |   ^~~~~~~~~~~~~
+headers/RANFunctionDefinition-Policy.h:36:17: error: expected specifier-qualifier-list before ‘typedef’
+   36 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Policy.h:36:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   36 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member {
+      |   ^~~~~~~~~~~~~
+lib/EPC-CUUP-PM-Format.c:69:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct EPC_CUUP_PM_Format__perQCIReportList’
+   69 |  sizeof(struct EPC_CUUP_PM_Format__perQCIReportList),
+      |         ^~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/EPC-CUUP-PM-Format.h:12,
+                 from lib/EPC-CUUP-PM-Format.c:8:
+lib/EPC-CUUP-PM-Format.c:70:2: error: invalid use of undefined type ‘struct EPC_CUUP_PM_Format__perQCIReportList’
+   70 |  offsetof(struct EPC_CUUP_PM_Format__perQCIReportList, _asn_ctx),
+      |  ^~~~~~~~
+lib/EPC-CUUP-PM-Format.c:91:56: error: ‘struct EPC_CUUP_PM_Format’ has no member named ‘perQCIReportList’; did you mean ‘perQCIReportList_cuup’?
+   91 |  { ATF_NOFLAGS, 0, offsetof(struct EPC_CUUP_PM_Format, perQCIReportList),
+      |                                                        ^~~~~~~~~~~~~~~~
+lib/EPC-DU-PM-Container.c:69:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct EPC_DU_PM_Container__perQCIReportList’
+   69 |  sizeof(struct EPC_DU_PM_Container__perQCIReportList),
+      |         ^~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/EPC-DU-PM-Container.h:12,
+                 from lib/EPC-DU-PM-Container.c:8:
+lib/EPC-DU-PM-Container.c:70:2: error: invalid use of undefined type ‘struct EPC_DU_PM_Container__perQCIReportList’
+   70 |  offsetof(struct EPC_DU_PM_Container__perQCIReportList, _asn_ctx),
+      |  ^~~~~~~~
+lib/EPC-DU-PM-Container.c:91:57: error: ‘struct EPC_DU_PM_Container’ has no member named ‘perQCIReportList’; did you mean ‘perQCIReportList_du’?
+   91 |  { ATF_NOFLAGS, 0, offsetof(struct EPC_DU_PM_Container, perQCIReportList),
+      |                                                         ^~~~~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/OCUCP-PF-Container.h:12,
+                 from lib/OCUCP-PF-Container.c:8:
+lib/OCUCP-PF-Container.c:89:20: error: ‘struct OCUCP_PF_Container’ has no member named ‘gNB_CU_CP_Name’
+   89 |  { ATF_POINTER, 1, offsetof(struct OCUCP_PF_Container, gNB_CU_CP_Name),
+      |                    ^~~~~~~~
+lib/OCUCP-PF-Container.c:92:4: error: ‘asn_DEF_GNB_CU_CP_Name’ undeclared here (not in a function)
+   92 |   &asn_DEF_GNB_CU_CP_Name,
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+lib/OCUCP-PF-Container.c:98:2: warning: excess elements in array initializer
+   98 |  { ATF_NOFLAGS, 0, offsetof(struct OCUCP_PF_Container, cu_CP_Resource_Status),
+      |  ^
+lib/OCUCP-PF-Container.c:98:2: note: (near initialization for ‘asn_MBR_OCUCP_PF_Container_1’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/OCUUP-PF-Container.h:12,
+                 from lib/OCUUP-PF-Container.c:8:
+lib/OCUUP-PF-Container.c:91:20: error: ‘struct OCUUP_PF_Container’ has no member named ‘gNB_CU_UP_Name’
+   91 |  { ATF_POINTER, 1, offsetof(struct OCUUP_PF_Container, gNB_CU_UP_Name),
+      |                    ^~~~~~~~
+lib/OCUUP-PF-Container.c:94:4: error: ‘asn_DEF_GNB_CU_UP_Name’ undeclared here (not in a function)
+   94 |   &asn_DEF_GNB_CU_UP_Name,
+      |    ^~~~~~~~~~~~~~~~~~~~~~
+lib/OCUUP-PF-Container.c:100:2: warning: excess elements in array initializer
+  100 |  { ATF_NOFLAGS, 0, offsetof(struct OCUUP_PF_Container, pf_ContainerList),
+      |  ^
+lib/OCUUP-PF-Container.c:100:2: note: (near initialization for ‘asn_MBR_OCUUP_PF_Container_1’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/PerQCIReportListItemFormat.h:12,
+                 from lib/PerQCIReportListItemFormat.c:8:
+lib/PerQCIReportListItemFormat.c:122:20: error: ‘struct PerQCIReportListItemFormat’ has no member named ‘qci’
+  122 |  { ATF_NOFLAGS, 0, offsetof(struct PerQCIReportListItemFormat, qci),
+      |                    ^~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:22:20: error: invalid use of undefined type ‘struct RAN_Container__reportContainer’
+   22 |  { ATF_POINTER, 0, offsetof(struct RAN_Container__reportContainer, choice.oDU_UE),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:31:20: error: invalid use of undefined type ‘struct RAN_Container__reportContainer’
+   31 |  { ATF_POINTER, 0, offsetof(struct RAN_Container__reportContainer, choice.oCU_CP_UE),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:40:20: error: invalid use of undefined type ‘struct RAN_Container__reportContainer’
+   40 |  { ATF_POINTER, 0, offsetof(struct RAN_Container__reportContainer, choice.oCU_UP_UE),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:55:8: error: unknown type name ‘asn_CHOICE_specifics_t’
+   55 | static asn_CHOICE_specifics_t asn_SPC_reportContainer_specs_3 = {
+      |        ^~~~~~~~~~~~~~~~~~~~~~
+lib/RAN-Container.c:56:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RAN_Container__reportContainer’
+   56 |  sizeof(struct RAN_Container__reportContainer),
+      |         ^~~~~~
+lib/RAN-Container.c:56:2: warning: initialization of ‘int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+   56 |  sizeof(struct RAN_Container__reportContainer),
+      |  ^~~~~~
+lib/RAN-Container.c:56:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:56:2: error: initializer element is not constant
+lib/RAN-Container.c:56:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:57:2: error: invalid use of undefined type ‘struct RAN_Container__reportContainer’
+   57 |  offsetof(struct RAN_Container__reportContainer, _asn_ctx),
+      |  ^~~~~~~~
+lib/RAN-Container.c:57:2: warning: excess elements in scalar initializer
+   57 |  offsetof(struct RAN_Container__reportContainer, _asn_ctx),
+      |  ^~~~~~~~
+lib/RAN-Container.c:57:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:58:2: error: invalid use of undefined type ‘struct RAN_Container__reportContainer’
+   58 |  offsetof(struct RAN_Container__reportContainer, present),
+      |  ^~~~~~~~
+lib/RAN-Container.c:58:2: warning: excess elements in scalar initializer
+   58 |  offsetof(struct RAN_Container__reportContainer, present),
+      |  ^~~~~~~~
+lib/RAN-Container.c:58:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:59:53: error: dereferencing pointer to incomplete type ‘struct RAN_Container__reportContainer’
+   59 |  sizeof(((struct RAN_Container__reportContainer *)0)->present),
+      |                                                     ^~
+lib/RAN-Container.c:59:53: error: request for member ‘present’ in something not a structure or union
+lib/RAN-Container.c:59:2: warning: excess elements in scalar initializer
+   59 |  sizeof(((struct RAN_Container__reportContainer *)0)->present),
+      |  ^~~~~~
+lib/RAN-Container.c:59:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:60:2: warning: excess elements in scalar initializer
+   60 |  asn_MAP_reportContainer_tag2el_3,
+      |  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+lib/RAN-Container.c:60:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:61:2: warning: excess elements in scalar initializer
+   61 |  3, /* Count of tags in the map */
+      |  ^
+lib/RAN-Container.c:61:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:62:2: warning: excess elements in scalar initializer
+   62 |  0, 0,
+      |  ^
+lib/RAN-Container.c:62:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:62:5: warning: excess elements in scalar initializer
+   62 |  0, 0,
+      |     ^
+lib/RAN-Container.c:62:5: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:63:2: warning: excess elements in scalar initializer
+   63 |  3 /* Extensions start */
+      |  ^
+lib/RAN-Container.c:63:2: note: (near initialization for ‘asn_SPC_reportContainer_specs_3’)
+lib/RAN-Container.c:69:3: error: ‘asn_OP_CHOICE’ undeclared here (not in a function)
+   69 |  &asn_OP_CHOICE,
+      |   ^~~~~~~~~~~~~
+lib/RAN-Container.c:69:2: warning: initialization of ‘asn_TYPE_operation_t *’ {aka ‘struct asn_TYPE_operation_s *’} from incompatible pointer type ‘asn_TYPE_member_t (*)[1]’ {aka ‘struct asn_TYPE_member_s (*)[1]’} [-Wincompatible-pointer-types]
+   69 |  &asn_OP_CHOICE,
+      |  ^
+lib/RAN-Container.c:69:2: note: (near initialization for ‘asn_DEF_reportContainer_3.op’)
+lib/RAN-Container.c:69:2: error: initializer element is not constant
+lib/RAN-Container.c:69:2: note: (near initialization for ‘asn_DEF_reportContainer_3.op’)
+lib/RAN-Container.c:74:84: error: ‘CHOICE_constraint’ undeclared here (not in a function); did you mean ‘SEQUENCE_constraint’?
+   74 |  { &asn_OER_type_reportContainer_constr_3, &asn_PER_type_reportContainer_constr_3, CHOICE_constraint },
+      |                                                                                    ^~~~~~~~~~~~~~~~~
+      |                                                                                    SEQUENCE_constraint
+lib/RAN-Container.c:74:84: warning: initialization of ‘int (*)(const struct asn_TYPE_descriptor_s *, const void *, void (*)(void *, const struct asn_TYPE_descriptor_s *, const void *, const char *, ...), void *)’ from incompatible pointer type ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} [-Wincompatible-pointer-types]
+lib/RAN-Container.c:74:84: note: (near initialization for ‘asn_DEF_reportContainer_3.encoding_constraints.general_constraints’)
+lib/RAN-Container.c:74:84: error: initializer element is not constant
+lib/RAN-Container.c:74:84: note: (near initialization for ‘asn_DEF_reportContainer_3.encoding_constraints.general_constraints’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:81:20: error: invalid use of undefined type ‘struct RAN_Container’
+   81 |  { ATF_NOFLAGS, 0, offsetof(struct RAN_Container, timestamp),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:81:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+   81 |  { ATF_NOFLAGS, 0, offsetof(struct RAN_Container, timestamp),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:81:20: note: (near initialization for ‘asn_MBR_RAN_Container_1[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:81:20: error: initializer element is not constant
+   81 |  { ATF_NOFLAGS, 0, offsetof(struct RAN_Container, timestamp),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:81:20: note: (near initialization for ‘asn_MBR_RAN_Container_1[0].memb_offset’)
+lib/RAN-Container.c:84:4: error: ‘asn_DEF_Timestamp’ undeclared here (not in a function)
+   84 |   &asn_DEF_Timestamp,
+      |    ^~~~~~~~~~~~~~~~~
+lib/RAN-Container.c:84:3: warning: initialization of ‘asn_TYPE_descriptor_t *’ {aka ‘struct asn_TYPE_descriptor_s *’} from incompatible pointer type ‘asn_TYPE_member_t (*)[1]’ {aka ‘struct asn_TYPE_member_s (*)[1]’} [-Wincompatible-pointer-types]
+   84 |   &asn_DEF_Timestamp,
+      |   ^
+lib/RAN-Container.c:84:3: note: (near initialization for ‘asn_MBR_RAN_Container_1[0].type’)
+lib/RAN-Container.c:84:3: error: initializer element is not constant
+lib/RAN-Container.c:84:3: note: (near initialization for ‘asn_MBR_RAN_Container_1[0].type’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:90:20: error: invalid use of undefined type ‘struct RAN_Container’
+   90 |  { ATF_NOFLAGS, 0, offsetof(struct RAN_Container, reportContainer),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:90:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+   90 |  { ATF_NOFLAGS, 0, offsetof(struct RAN_Container, reportContainer),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:90:20: note: (near initialization for ‘asn_MBR_RAN_Container_1[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:90:20: error: initializer element is not constant
+   90 |  { ATF_NOFLAGS, 0, offsetof(struct RAN_Container, reportContainer),
+      |                    ^~~~~~~~
+lib/RAN-Container.c:90:20: note: (near initialization for ‘asn_MBR_RAN_Container_1[1].memb_offset’)
+lib/RAN-Container.c:108:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RAN_Container’
+  108 |  sizeof(struct RAN_Container),
+      |         ^~~~~~
+lib/RAN-Container.c:108:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  108 |  sizeof(struct RAN_Container),
+      |  ^~~~~~
+lib/RAN-Container.c:108:2: note: (near initialization for ‘asn_SPC_RAN_Container_specs_1.struct_size’)
+lib/RAN-Container.c:108:2: error: initializer element is not constant
+lib/RAN-Container.c:108:2: note: (near initialization for ‘asn_SPC_RAN_Container_specs_1.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:109:2: error: invalid use of undefined type ‘struct RAN_Container’
+  109 |  offsetof(struct RAN_Container, _asn_ctx),
+      |  ^~~~~~~~
+lib/RAN-Container.c:109:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  109 |  offsetof(struct RAN_Container, _asn_ctx),
+      |  ^~~~~~~~
+lib/RAN-Container.c:109:2: note: (near initialization for ‘asn_SPC_RAN_Container_specs_1.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RAN-Container.h:12,
+                 from lib/RAN-Container.c:8:
+lib/RAN-Container.c:109:2: error: initializer element is not constant
+  109 |  offsetof(struct RAN_Container, _asn_ctx),
+      |  ^~~~~~~~
+lib/RAN-Container.c:109:2: note: (near initialization for ‘asn_SPC_RAN_Container_specs_1.ctx_offset’)
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-Control.h:15,
+                 from lib/RANFunctionDefinition-Control.c:8:
+headers/RANFunctionDefinition-Control.h:35:17: error: expected specifier-qualifier-list before ‘typedef’
+   35 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Control.h:35:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   35 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member {
+      |   ^~~~~~~~~~~~~
+headers/RANFunctionDefinition-Control.h:73:17: error: expected specifier-qualifier-list before ‘typedef’
+   73 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Control.h:73:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   73 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:179:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member’
+  179 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:188:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member’
+  188 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:206:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member’
+  206 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Control.c:206:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  206 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Control.c:206:2: note: (near initialization for ‘asn_SPC_Member_specs_11.struct_size’)
+lib/RANFunctionDefinition-Control.c:206:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Control.c:206:2: note: (near initialization for ‘asn_SPC_Member_specs_11.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:207:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member’
+  207 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:207:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  207 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:207:2: note: (near initialization for ‘asn_SPC_Member_specs_11.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:207:2: error: initializer element is not constant
+  207 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:207:2: note: (near initialization for ‘asn_SPC_Member_specs_11.ctx_offset’)
+lib/RANFunctionDefinition-Control.c:246:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List’
+  246 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Control.c:246:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  246 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Control.c:246:2: note: (near initialization for ‘asn_SPC_ran_ControlActionParameters_List_specs_10.struct_size’)
+lib/RANFunctionDefinition-Control.c:246:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Control.c:246:2: note: (near initialization for ‘asn_SPC_ran_ControlActionParameters_List_specs_10.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:247:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List’
+  247 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:247:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  247 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:247:2: note: (near initialization for ‘asn_SPC_ran_ControlActionParameters_List_specs_10.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:247:2: error: initializer element is not constant
+  247 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member__ran_ControlActionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:247:2: note: (near initialization for ‘asn_SPC_ran_ControlActionParameters_List_specs_10.ctx_offset’)
+lib/RANFunctionDefinition-Control.c:268:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member’
+  268 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ric_ControlAction_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:268:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  268 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ric_ControlAction_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:268:20: note: (near initialization for ‘asn_MBR_Member_7[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:268:20: error: initializer element is not constant
+  268 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ric_ControlAction_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:268:20: note: (near initialization for ‘asn_MBR_Member_7[0].memb_offset’)
+lib/RANFunctionDefinition-Control.c:277:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member’
+  277 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ric_ControlAction_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:277:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  277 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ric_ControlAction_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:277:20: note: (near initialization for ‘asn_MBR_Member_7[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:277:20: error: initializer element is not constant
+  277 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ric_ControlAction_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:277:20: note: (near initialization for ‘asn_MBR_Member_7[1].memb_offset’)
+lib/RANFunctionDefinition-Control.c:286:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member’
+  286 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ran_ControlActionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:286:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  286 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ran_ControlActionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:286:20: note: (near initialization for ‘asn_MBR_Member_7[2].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:286:20: error: initializer element is not constant
+  286 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, ran_ControlActionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:286:20: note: (near initialization for ‘asn_MBR_Member_7[2].memb_offset’)
+lib/RANFunctionDefinition-Control.c:306:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member’
+  306 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Control.c:306:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  306 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Control.c:306:2: note: (near initialization for ‘asn_SPC_Member_specs_7.struct_size’)
+lib/RANFunctionDefinition-Control.c:306:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Control.c:306:2: note: (near initialization for ‘asn_SPC_Member_specs_7.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:307:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member’
+  307 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:307:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  307 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:307:2: note: (near initialization for ‘asn_SPC_Member_specs_7.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:307:2: error: initializer element is not constant
+  307 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ric_ControlAction_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:307:2: note: (near initialization for ‘asn_SPC_Member_specs_7.ctx_offset’)
+lib/RANFunctionDefinition-Control.c:369:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member’
+  369 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:369:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  369 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:369:20: note: (near initialization for ‘asn_MBR_Member_21[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:369:20: error: initializer element is not constant
+  369 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:369:20: note: (near initialization for ‘asn_MBR_Member_21[0].memb_offset’)
+lib/RANFunctionDefinition-Control.c:378:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member’
+  378 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:378:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  378 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:378:20: note: (near initialization for ‘asn_MBR_Member_21[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:378:20: error: initializer element is not constant
+  378 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:378:20: note: (near initialization for ‘asn_MBR_Member_21[1].memb_offset’)
+lib/RANFunctionDefinition-Control.c:396:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member’
+  396 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Control.c:396:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  396 |  sizeof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Control.c:396:2: note: (near initialization for ‘asn_SPC_Member_specs_21.struct_size’)
+lib/RANFunctionDefinition-Control.c:396:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Control.c:396:2: note: (near initialization for ‘asn_SPC_Member_specs_21.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:397:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member’
+  397 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:397:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  397 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:397:2: note: (near initialization for ‘asn_SPC_Member_specs_21.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Control.h:12,
+                 from lib/RANFunctionDefinition-Control.c:8:
+lib/RANFunctionDefinition-Control.c:397:2: error: initializer element is not constant
+  397 |  offsetof(struct RANFunctionDefinition_Control__ric_ControlStyle_List__Member__ran_ControlOutcomeParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Control.c:397:2: note: (near initialization for ‘asn_SPC_Member_specs_21.ctx_offset’)
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-EventTrigger.h:15,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+headers/RANFunctionDefinition-EventTrigger.h:60:17: error: expected specifier-qualifier-list before ‘typedef’
+   60 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-EventTrigger.h:60:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   60 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:493:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member’
+  493 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:502:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member’
+  502 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:520:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member’
+  520 |  sizeof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:520:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  520 |  sizeof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:520:2: note: (near initialization for ‘asn_SPC_Member_specs_22.struct_size’)
+lib/RANFunctionDefinition-EventTrigger.c:520:2: error: initializer element is not constant
+lib/RANFunctionDefinition-EventTrigger.c:520:2: note: (near initialization for ‘asn_SPC_Member_specs_22.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:521:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member’
+  521 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:521:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  521 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:521:2: note: (near initialization for ‘asn_SPC_Member_specs_22.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:521:2: error: initializer element is not constant
+  521 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:521:2: note: (near initialization for ‘asn_SPC_Member_specs_22.ctx_offset’)
+lib/RANFunctionDefinition-EventTrigger.c:560:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List’
+  560 |  sizeof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List),
+      |         ^~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:560:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  560 |  sizeof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List),
+      |  ^~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:560:2: note: (near initialization for ‘asn_SPC_ran_CallProcessBreakpointParameters_List_specs_21.struct_size’)
+lib/RANFunctionDefinition-EventTrigger.c:560:2: error: initializer element is not constant
+lib/RANFunctionDefinition-EventTrigger.c:560:2: note: (near initialization for ‘asn_SPC_ran_CallProcessBreakpointParameters_List_specs_21.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:561:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List’
+  561 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:561:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  561 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:561:2: note: (near initialization for ‘asn_SPC_ran_CallProcessBreakpointParameters_List_specs_21.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:561:2: error: initializer element is not constant
+  561 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member__ran_CallProcessBreakpointParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:561:2: note: (near initialization for ‘asn_SPC_ran_CallProcessBreakpointParameters_List_specs_21.ctx_offset’)
+lib/RANFunctionDefinition-EventTrigger.c:582:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member’
+  582 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, callProcessBreakpoint_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:582:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  582 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, callProcessBreakpoint_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:582:20: note: (near initialization for ‘asn_MBR_Member_18[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:582:20: error: initializer element is not constant
+  582 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, callProcessBreakpoint_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:582:20: note: (near initialization for ‘asn_MBR_Member_18[0].memb_offset’)
+lib/RANFunctionDefinition-EventTrigger.c:591:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member’
+  591 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, callProcessBreakpoint_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:591:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  591 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, callProcessBreakpoint_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:591:20: note: (near initialization for ‘asn_MBR_Member_18[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:591:20: error: initializer element is not constant
+  591 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, callProcessBreakpoint_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:591:20: note: (near initialization for ‘asn_MBR_Member_18[1].memb_offset’)
+lib/RANFunctionDefinition-EventTrigger.c:600:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member’
+  600 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, ran_CallProcessBreakpointParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:600:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  600 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, ran_CallProcessBreakpointParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:600:20: note: (near initialization for ‘asn_MBR_Member_18[2].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:600:20: error: initializer element is not constant
+  600 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, ran_CallProcessBreakpointParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:600:20: note: (near initialization for ‘asn_MBR_Member_18[2].memb_offset’)
+lib/RANFunctionDefinition-EventTrigger.c:620:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member’
+  620 |  sizeof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:620:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  620 |  sizeof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:620:2: note: (near initialization for ‘asn_SPC_Member_specs_18.struct_size’)
+lib/RANFunctionDefinition-EventTrigger.c:620:2: error: initializer element is not constant
+lib/RANFunctionDefinition-EventTrigger.c:620:2: note: (near initialization for ‘asn_SPC_Member_specs_18.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:621:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member’
+  621 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:621:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  621 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:621:2: note: (near initialization for ‘asn_SPC_Member_specs_18.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-EventTrigger.h:12,
+                 from lib/RANFunctionDefinition-EventTrigger.c:8:
+lib/RANFunctionDefinition-EventTrigger.c:621:2: error: initializer element is not constant
+  621 |  offsetof(struct RANFunctionDefinition_EventTrigger__ran_CallProcessTypes_List__Member__callProcessBreakpoints_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-EventTrigger.c:621:2: note: (near initialization for ‘asn_SPC_Member_specs_18.ctx_offset’)
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-Insert.h:15,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+headers/RANFunctionDefinition-Insert.h:37:17: error: expected specifier-qualifier-list before ‘typedef’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Insert.h:37:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:137:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member’
+  137 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:146:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member’
+  146 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:164:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member’
+  164 |  sizeof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Insert.c:164:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  164 |  sizeof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Insert.c:164:2: note: (near initialization for ‘asn_SPC_Member_specs_13.struct_size’)
+lib/RANFunctionDefinition-Insert.c:164:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Insert.c:164:2: note: (near initialization for ‘asn_SPC_Member_specs_13.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:165:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member’
+  165 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:165:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  165 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:165:2: note: (near initialization for ‘asn_SPC_Member_specs_13.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:165:2: error: initializer element is not constant
+  165 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:165:2: note: (near initialization for ‘asn_SPC_Member_specs_13.ctx_offset’)
+lib/RANFunctionDefinition-Insert.c:204:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List’
+  204 |  sizeof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Insert.c:204:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  204 |  sizeof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Insert.c:204:2: note: (near initialization for ‘asn_SPC_ran_InsertIndicationParameters_List_specs_12.struct_size’)
+lib/RANFunctionDefinition-Insert.c:204:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Insert.c:204:2: note: (near initialization for ‘asn_SPC_ran_InsertIndicationParameters_List_specs_12.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:205:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List’
+  205 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:205:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  205 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:205:2: note: (near initialization for ‘asn_SPC_ran_InsertIndicationParameters_List_specs_12.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:205:2: error: initializer element is not constant
+  205 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member__ran_InsertIndicationParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:205:2: note: (near initialization for ‘asn_SPC_ran_InsertIndicationParameters_List_specs_12.ctx_offset’)
+lib/RANFunctionDefinition-Insert.c:226:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member’
+  226 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ric_InsertIndication_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:226:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  226 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ric_InsertIndication_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:226:20: note: (near initialization for ‘asn_MBR_Member_9[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:226:20: error: initializer element is not constant
+  226 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ric_InsertIndication_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:226:20: note: (near initialization for ‘asn_MBR_Member_9[0].memb_offset’)
+lib/RANFunctionDefinition-Insert.c:235:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member’
+  235 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ric_InsertIndication_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:235:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  235 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ric_InsertIndication_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:235:20: note: (near initialization for ‘asn_MBR_Member_9[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:235:20: error: initializer element is not constant
+  235 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ric_InsertIndication_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:235:20: note: (near initialization for ‘asn_MBR_Member_9[1].memb_offset’)
+lib/RANFunctionDefinition-Insert.c:244:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member’
+  244 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ran_InsertIndicationParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:244:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  244 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ran_InsertIndicationParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:244:20: note: (near initialization for ‘asn_MBR_Member_9[2].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:244:20: error: initializer element is not constant
+  244 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, ran_InsertIndicationParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:244:20: note: (near initialization for ‘asn_MBR_Member_9[2].memb_offset’)
+lib/RANFunctionDefinition-Insert.c:264:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member’
+  264 |  sizeof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Insert.c:264:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  264 |  sizeof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Insert.c:264:2: note: (near initialization for ‘asn_SPC_Member_specs_9.struct_size’)
+lib/RANFunctionDefinition-Insert.c:264:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Insert.c:264:2: note: (near initialization for ‘asn_SPC_Member_specs_9.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:265:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member’
+  265 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:265:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  265 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:265:2: note: (near initialization for ‘asn_SPC_Member_specs_9.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Insert.h:12,
+                 from lib/RANFunctionDefinition-Insert.c:8:
+lib/RANFunctionDefinition-Insert.c:265:2: error: initializer element is not constant
+  265 |  offsetof(struct RANFunctionDefinition_Insert__ric_InsertStyle_List__Member__ric_InsertIndication_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Insert.c:265:2: note: (near initialization for ‘asn_SPC_Member_specs_9.ctx_offset’)
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-Policy.h:15,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+headers/RANFunctionDefinition-Policy.h:36:17: error: expected specifier-qualifier-list before ‘typedef’
+   36 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Policy.h:36:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   36 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:179:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member’
+  179 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:188:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member’
+  188 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:206:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member’
+  206 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Policy.c:206:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  206 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Policy.c:206:2: note: (near initialization for ‘asn_SPC_Member_specs_13.struct_size’)
+lib/RANFunctionDefinition-Policy.c:206:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Policy.c:206:2: note: (near initialization for ‘asn_SPC_Member_specs_13.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:207:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member’
+  207 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:207:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  207 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:207:2: note: (near initialization for ‘asn_SPC_Member_specs_13.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:207:2: error: initializer element is not constant
+  207 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:207:2: note: (near initialization for ‘asn_SPC_Member_specs_13.ctx_offset’)
+lib/RANFunctionDefinition-Policy.c:246:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List’
+  246 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Policy.c:246:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  246 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Policy.c:246:2: note: (near initialization for ‘asn_SPC_ran_PolicyActionParameters_List_specs_12.struct_size’)
+lib/RANFunctionDefinition-Policy.c:246:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Policy.c:246:2: note: (near initialization for ‘asn_SPC_ran_PolicyActionParameters_List_specs_12.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:247:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List’
+  247 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:247:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  247 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:247:2: note: (near initialization for ‘asn_SPC_ran_PolicyActionParameters_List_specs_12.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:247:2: error: initializer element is not constant
+  247 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyActionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:247:2: note: (near initialization for ‘asn_SPC_ran_PolicyActionParameters_List_specs_12.ctx_offset’)
+lib/RANFunctionDefinition-Policy.c:268:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member’
+  268 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:268:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  268 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:268:20: note: (near initialization for ‘asn_MBR_Member_18[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:268:20: error: initializer element is not constant
+  268 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:268:20: note: (near initialization for ‘asn_MBR_Member_18[0].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:277:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member’
+  277 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:277:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  277 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:277:20: note: (near initialization for ‘asn_MBR_Member_18[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:277:20: error: initializer element is not constant
+  277 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:277:20: note: (near initialization for ‘asn_MBR_Member_18[1].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:295:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member’
+  295 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Policy.c:295:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  295 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Policy.c:295:2: note: (near initialization for ‘asn_SPC_Member_specs_18.struct_size’)
+lib/RANFunctionDefinition-Policy.c:295:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Policy.c:295:2: note: (near initialization for ‘asn_SPC_Member_specs_18.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:296:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member’
+  296 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:296:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  296 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:296:2: note: (near initialization for ‘asn_SPC_Member_specs_18.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:296:2: error: initializer element is not constant
+  296 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:296:2: note: (near initialization for ‘asn_SPC_Member_specs_18.ctx_offset’)
+lib/RANFunctionDefinition-Policy.c:335:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List’
+  335 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Policy.c:335:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  335 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Policy.c:335:2: note: (near initialization for ‘asn_SPC_ran_PolicyConditionParameters_List_specs_17.struct_size’)
+lib/RANFunctionDefinition-Policy.c:335:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Policy.c:335:2: note: (near initialization for ‘asn_SPC_ran_PolicyConditionParameters_List_specs_17.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:336:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List’
+  336 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:336:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  336 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:336:2: note: (near initialization for ‘asn_SPC_ran_PolicyConditionParameters_List_specs_17.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:336:2: error: initializer element is not constant
+  336 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member__ran_PolicyConditionParameters_List, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:336:2: note: (near initialization for ‘asn_SPC_ran_PolicyConditionParameters_List_specs_17.ctx_offset’)
+lib/RANFunctionDefinition-Policy.c:357:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  357 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_PolicyAction_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:357:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  357 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_PolicyAction_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:357:20: note: (near initialization for ‘asn_MBR_Member_8[0].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:357:20: error: initializer element is not constant
+  357 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_PolicyAction_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:357:20: note: (near initialization for ‘asn_MBR_Member_8[0].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:366:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  366 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_PolicyAction_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:366:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  366 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_PolicyAction_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:366:20: note: (near initialization for ‘asn_MBR_Member_8[1].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:366:20: error: initializer element is not constant
+  366 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_PolicyAction_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:366:20: note: (near initialization for ‘asn_MBR_Member_8[1].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:375:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  375 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_ActionDefinitionFormat_Type),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:375:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  375 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_ActionDefinitionFormat_Type),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:375:20: note: (near initialization for ‘asn_MBR_Member_8[2].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:375:20: error: initializer element is not constant
+  375 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ric_ActionDefinitionFormat_Type),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:375:20: note: (near initialization for ‘asn_MBR_Member_8[2].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:384:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  384 |  { ATF_POINTER, 2, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ran_PolicyActionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:384:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  384 |  { ATF_POINTER, 2, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ran_PolicyActionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:384:20: note: (near initialization for ‘asn_MBR_Member_8[3].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:384:20: error: initializer element is not constant
+  384 |  { ATF_POINTER, 2, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ran_PolicyActionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:384:20: note: (near initialization for ‘asn_MBR_Member_8[3].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:393:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  393 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ran_PolicyConditionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:393:20: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  393 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ran_PolicyConditionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:393:20: note: (near initialization for ‘asn_MBR_Member_8[4].memb_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:393:20: error: initializer element is not constant
+  393 |  { ATF_POINTER, 1, offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, ran_PolicyConditionParameters_List),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:393:20: note: (near initialization for ‘asn_MBR_Member_8[4].memb_offset’)
+lib/RANFunctionDefinition-Policy.c:415:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  415 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Policy.c:415:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  415 |  sizeof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Policy.c:415:2: note: (near initialization for ‘asn_SPC_Member_specs_8.struct_size’)
+lib/RANFunctionDefinition-Policy.c:415:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Policy.c:415:2: note: (near initialization for ‘asn_SPC_Member_specs_8.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:416:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member’
+  416 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:416:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  416 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:416:2: note: (near initialization for ‘asn_SPC_Member_specs_8.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Policy.h:12,
+                 from lib/RANFunctionDefinition-Policy.c:8:
+lib/RANFunctionDefinition-Policy.c:416:2: error: initializer element is not constant
+  416 |  offsetof(struct RANFunctionDefinition_Policy__ric_PolicyStyle_List__Member__ric_PolicyAction_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Policy.c:416:2: note: (near initialization for ‘asn_SPC_Member_specs_8.ctx_offset’)
+In file included from headers/asn_SEQUENCE_OF.h:8,
+                 from headers/RANFunctionDefinition-Report.h:15,
+                 from lib/RANFunctionDefinition-Report.c:8:
+headers/RANFunctionDefinition-Report.h:37:17: error: expected specifier-qualifier-list before ‘typedef’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member {
+      |                 ^~~~~~~
+headers/asn_SET_OF.h:19:9: note: in definition of macro ‘A_SET_OF’
+   19 |         type **array;                    \
+      |         ^~~~
+headers/RANFunctionDefinition-Report.h:37:3: note: in expansion of macro ‘A_SEQUENCE_OF’
+   37 |   A_SEQUENCE_OF(typedef struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member {
+      |   ^~~~~~~~~~~~~
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Report.h:12,
+                 from lib/RANFunctionDefinition-Report.c:8:
+lib/RANFunctionDefinition-Report.c:95:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member’
+   95 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member, ranParameter_ID),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Report.c:104:20: error: invalid use of undefined type ‘struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member’
+  104 |  { ATF_NOFLAGS, 0, offsetof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member, ranParameter_Name),
+      |                    ^~~~~~~~
+lib/RANFunctionDefinition-Report.c:122:9: error: invalid application of ‘sizeof’ to incomplete type ‘struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member’
+  122 |  sizeof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member),
+      |         ^~~~~~
+lib/RANFunctionDefinition-Report.c:122:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  122 |  sizeof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member),
+      |  ^~~~~~
+lib/RANFunctionDefinition-Report.c:122:2: note: (near initialization for ‘asn_SPC_Member_specs_11.struct_size’)
+lib/RANFunctionDefinition-Report.c:122:2: error: initializer element is not constant
+lib/RANFunctionDefinition-Report.c:122:2: note: (near initialization for ‘asn_SPC_Member_specs_11.struct_size’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Report.h:12,
+                 from lib/RANFunctionDefinition-Report.c:8:
+lib/RANFunctionDefinition-Report.c:123:2: error: invalid use of undefined type ‘struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member’
+  123 |  offsetof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Report.c:123:2: warning: initialization of ‘unsigned int’ from ‘asn_TYPE_member_t *’ {aka ‘struct asn_TYPE_member_s *’} makes integer from pointer without a cast [-Wint-conversion]
+  123 |  offsetof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Report.c:123:2: note: (near initialization for ‘asn_SPC_Member_specs_11.ctx_offset’)
+In file included from /usr/include/x86_64-linux-gnu/bits/socket.h:27,
+                 from /usr/include/x86_64-linux-gnu/sys/socket.h:33,
+                 from /usr/include/netinet/in.h:23,
+                 from headers/asn_system.h:78,
+                 from headers/asn_application.h:11,
+                 from headers/RANFunctionDefinition-Report.h:12,
+                 from lib/RANFunctionDefinition-Report.c:8:
+lib/RANFunctionDefinition-Report.c:123:2: error: initializer element is not constant
+  123 |  offsetof(struct RANFunctionDefinition_Report__ric_ReportStyle_List__Member__ran_ReportParameters_List__Member, _asn_ctx),
+      |  ^~~~~~~~
+lib/RANFunctionDefinition-Report.c:123:2: note: (near initialization for ‘asn_SPC_Member_specs_11.ctx_offset’)
+lib/SlicePerPlmnPerCellListItem.c:94:4: error: ‘asn_DEF_SNSSAI’ undeclared here (not in a function); did you mean ‘asn_DEF_S_NSSAI’?
+   94 |   &asn_DEF_SNSSAI,
+      |    ^~~~~~~~~~~~~~
+      |    asn_DEF_S_NSSAI
+lib/SliceToReportListItem.c:94:4: error: ‘asn_DEF_SNSSAI’ undeclared here (not in a function); did you mean ‘asn_DEF_S_NSSAI’?
+   94 |   &asn_DEF_SNSSAI,
+      |    ^~~~~~~~~~~~~~
+      |    asn_DEF_S_NSSAI
+wrapper.c:4:9: error: conflicting types for ‘e2sm_encode_ric_event_trigger_definition’
+    4 | ssize_t e2sm_encode_ric_event_trigger_definition(void *buffer, size_t buf_size, size_t event_trigger_count, int triggerConditionID, long rrc_id) {
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from wrapper.c:2:
+wrapper.h:55:8: note: previous declaration of ‘e2sm_encode_ric_event_trigger_definition’ was here
+   55 | size_t e2sm_encode_ric_event_trigger_definition(void *buffer, size_t buf_size,
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
